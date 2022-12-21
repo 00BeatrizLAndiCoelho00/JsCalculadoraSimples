@@ -1,0 +1,61 @@
+header{
+  color: var(--claro);
+
+}
+
+.Titulo{
+
+    font-family: 'Creepster', cursive;
+    font-size: 5.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Subtitulo{
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DetalhesTopo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+    font-family: 'Amatic SC', cursive;
+}
+.grid {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .grid__item {
+    grid-column: 3 / -3;
+    width: 200%;
+    direction: ltr;
+  }
+  
+  hr {
+    display: block;
+    clear: both;
+    width: 30%;
+    height: 0.1rem;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-top: 0.1rem solid var(--claro);
+  }
+  
+  .sketch-rule {
+    width: 300%;
+    height: 0.3em;
+    border: 0;
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 119 6'%3E%3Cpath d='M119 3.8c-60 2.5-33.5-7-119 0' fill='none' stroke='%231d2d35' stroke-width='2'/%3E%3C/svg%3E")
+      center/5em 100% repeat-x;
+  }
+

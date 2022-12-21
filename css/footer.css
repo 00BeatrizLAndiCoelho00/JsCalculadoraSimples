@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    color: var(--escuro);
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.TextoVertical{
+    margin-left: 8vw;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bolder;
+}
+.line{
+    border-left: 2px  solid var(--escuro);
+    height: 160%;
+    margin: 0 auto;
+    z-index: -5;
+    
+  
+}
+.DataSemantica{
+    font-size: 1.5rem;
+}
+.DataNumero{
+    font-size: 2.5rem;
+}

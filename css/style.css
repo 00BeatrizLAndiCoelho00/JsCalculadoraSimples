@@ -1,0 +1,69 @@
+:root{
+
+    --claro: rgb(78, 68, 209);
+    --escuro: rgb(30, 24, 148);
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+a{
+
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    display: grid;
+    grid-template-areas: "conteudo1";                    
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-size: 15px;
+    background-color: rgb(255, 255, 243);
+}
+
+header{
+
+    
+    grid-area: conteudo1;
+    height: 40px;
+    width: 100%;
+
+}
+.form{
+    width: 100%;
+}
+
+main{
+    
+    width: 100%;
+    height: 97vh;
+    grid-area: conteudo1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+footer{
+ 
+    grid-area: conteudo1;
+    height: 40px;
+    width: 100%;
+    place-self: end center;
+   
+
+}
+    
+ 
